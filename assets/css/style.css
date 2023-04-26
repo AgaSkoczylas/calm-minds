@@ -6,20 +6,21 @@ nav {
     height: 50px;
     text-align: center;
     display: block;
-    background-color: bisque;
+    background-color: #cbd18f;
+    opacity: 0.3;
     margin-top: -10px;
 }
 
 .nav-links {
     color: black;
     font-size: 30px;
-    clear: both;
+    
     }
 
 li > a {
 
     text-decoration: none;
-    color: #cbd18f;
+    color: #F1BE48;
     margin: 8rem;
 }
 
@@ -75,8 +76,27 @@ ul {
     background-color: transparent;
 }
 
+h2 {
+    font-size: 48px;
+    font-family: Playfair Display, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: #cbd18f;
+}
+
 .left-column {
     margin-left: 20px;
     padding-left: 10px;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
