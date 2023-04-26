@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: absolute;
 }
 
 .logo {
@@ -21,4 +22,18 @@ body {
     color: #cbd18f;
     text-align: center;
     padding-top: 5%;
+}
+
+#quote {
+    height: 100px;
+    width: 60%;
+    font-family: Source Sans Pro;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #cbd18f;
+    background-color: transparent;
+    margin: 100px 0 100px 400px;
+    position: relative;
+    
 }
