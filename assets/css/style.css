@@ -41,6 +41,7 @@ ul {
 }
 
 
+
 .container {
     height: 700px;
     width: 100%;
@@ -68,7 +69,7 @@ ul {
     line-height: 50px;
     font-size: 30px;
     text-align: center;
-    color: #cbd18f;
+    color: orange;
     background-color: transparent;
     margin: 100px 0 100px 400px;
     position: relative;
@@ -86,7 +87,7 @@ h2 {
     font-family: Playfair Display, sans-serif;
     text-align: center;
     margin: 0 auto;
-    color: #cbd18f;
+    color: orange;
 }
 
 .left-column {
@@ -94,3 +95,15 @@ h2 {
     padding-left: 10px;
 }
 
+.container-1, .container-2, .container-3 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .practice-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
