@@ -5,8 +5,18 @@ body {
 .container {
     height: 700px;
     width: 100%;
+    margin-top: 0;
+    padding-top: 0;
     background: url(../images/sky-header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.logo {
+
+    font-family: Playfair Display, sans-serif;
+    font-size: 36px;
+    color: #cbd18f;
+    text-align: center;
 }
