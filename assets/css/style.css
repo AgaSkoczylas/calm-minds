@@ -1,4 +1,12 @@
 body {
-    font-family: Source Sans Pro, sans-serif;
-    
+    background-color: #C3E0E5;
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+    background: url(../images/sky-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
