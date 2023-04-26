@@ -2,17 +2,48 @@ body {
     background-color: #C3E0E5;
 }
 
+nav {
+    height: 50px;
+    text-align: center;
+    display: block;
+    background-color: bisque;
+    margin-top: -10px;
+}
+
+.nav-links {
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    }
+
+li > a {
+
+    text-decoration: none;
+    color: #cbd18f;
+    margin: 8rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  li {
+    display: inline;
+  }
 
 
 .container {
     height: 700px;
     width: 100%;
-    margin-top: -10px;
     background: url(../images/sky-header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    display: block;
+    
 }
 
 .logo {
@@ -37,3 +68,4 @@ body {
     position: relative;
     
 }
+
