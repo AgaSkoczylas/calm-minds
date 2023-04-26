@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    margin-top: -20px;
+    margin-top: -30px;
     height: 60px;
     display: block;
     background-color: whitesmoke;
@@ -76,7 +76,7 @@ ul {
     
 }
 
-#spacer {
+.spacer {
     width: 100%;
     height: 40px;
     background-color: transparent;
@@ -105,8 +105,12 @@ h2 {
 
   .practice-text {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
+    line-height: 30px;
+    font-size: larger;
+    font-weight: 500;
+    color: orangered;
     transform: translate(-50%, -50%);
   }
 
@@ -120,4 +124,13 @@ h2 {
     width: 31%;
     margin: 10px;
     padding: 5px;
+  }
+
+
+  footer {
+    text-align: center;
+    margin-bottom: -30px;
+    padding: 0;
+    background-color: whitesmoke;
+    color: white;
   }
