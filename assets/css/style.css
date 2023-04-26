@@ -101,9 +101,23 @@ h2 {
     color: white;
   }
 
+/** code from W3Schools **/
+
   .practice-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .row {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  .column {
+    float: left;
+    width: 31%;
+    margin: 10px;
+    padding: 5px;
   }
