@@ -42,10 +42,10 @@
 
     <Section id="about-us">
         <div id="us-container">
-        <div class="left-column">
+        <div id="left-column">
             <img src="assets/images/about-us.jpg" width=600px height=700px alt="Group of Calm Mind's members">
         </div>
-        <div class="right-column">
+        <div id="right-column">
             <h2>About Us</h2>
             <p>Calm Minds is an independent charitable organization created to promote mindfulness practice in order to
                 improve people's wellbeing. We believe, mindfulness is freedom. It is a space for consciously responding
@@ -95,11 +95,11 @@
 
                 
                
-                    <div class="container-3 column">
-                        <img src="assets/images/attention.jpg" width=400px height=400px
-                            alt="A hand gesture invisting to pay attention.">
-                            <div class="practice-text">Breathing Workshops <br> Fri & Sat, 1900</div>
-                    </div>
+            <div class="container-3 column">
+                    <img src="assets/images/attention.jpg" width=400px height=400px
+                        alt="A hand gesture invisting to pay attention.">
+                        <div class="practice-text">Breathing Workshops <br> Fri & Sat, 1900</div>
+                </div>
 
                 </div>
                 
@@ -114,14 +114,14 @@
         <div class="spacer"></div>
 
         <h2>Get Involved</h2>
-        <form method="post">
-            <label for="fname">First name:</label><br>
+        <form method="post" id="contact">
+            <label for="fname" class="label">First name:</label><br>
             <input type="text" id="fname" name="fname" aria-label="Enter your first name" required><br>
-            <label for="lname">Last name:</label><br>
+            <label for="lname" class="label">Last name:</label><br>
             <input type="text" id="lname" name="lname" aria-label="Enter your last name" required><br>
-            <label for="email">Enter your email:</label><br>
+            <label for="email" class="label">Enter your email:</label><br>
             <input type="email" id="email" name="email" aria-label="Enter your email" required><br>
-            <input type="submit" value="Let's meet!" required><br>
+            <input type="submit" value="Let's meet!" id="submit"required><br>
         </form>
     </Section>
 
