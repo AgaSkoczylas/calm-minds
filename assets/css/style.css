@@ -165,6 +165,7 @@ h2 {
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
+    
   }
 
   input[type=text], input[type=email] {
@@ -207,7 +208,20 @@ font-size: 1.5rem;
 background-color: orangered;
 
 }
+
+#address {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: orange;
   
+  width: 200px;
+  height: 120px;
+ 
+  
+}
+
+
 
 footer {
     text-align: center;
@@ -216,3 +230,5 @@ footer {
     background-color: whitesmoke;
     color: white;
   }
+
+  
