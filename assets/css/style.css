@@ -95,21 +95,28 @@ h2 {
 #us-container {
 
   background-color: whitesmoke;
+  height: fit-content;
   width: 100%;
-  height: 700px;
+  clear: both;
 }
 
 .middle-column {
 
   float: left;
-    width: 40%;
+   height: fit-content;
+   width: 100%;
     margin: 10px;
     padding: 10px;
+    display: inline;
+    
+    
 }
 
 #left-column {
     margin: -10px 20px 0 80px;
     padding-left: 5px;
+    
+    
     
 }
 
@@ -120,16 +127,44 @@ h2 {
   text-align: center;
   float: right;
   margin-top: 100px;
-  margin-right: 120px;
-  padding: 5px;
+  margin-right: 200px;
+  padding: 20px;}
+  
+
+  
+ #pratice-section {
+  height: fit-content;
+  width: 100%;
+  clear: both;
+ } 
+  
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+  display: inline;
+  clear: both;
 }
 
 
 
-.container-1, .container-2, .container-3 {
+
+
+.column {
+  float: left;
+  width: 31%;
+  margin: 10px;
+  padding: 0;
+  display: inline;}
+  
+  
+
+#container-1, #container-2, #container-3 {
     position: relative;
     text-align: center;
     color: white;
+    
   }
 
 /** code from W3Schools **/
@@ -145,16 +180,11 @@ h2 {
     transform: translate(-50%, -50%);
   }
 
-  .row {
-    margin: 3rem;
-    padding: 1rem;
-  }
-
-  .column {
-    float: left;
-    width: 31%;
-    margin: 10px;
-    padding: 5px;
+  
+  #get-involved-section {
+    height: fit-content;
+    width: 100%;
+    clear: both;
   }
 
   #contact {
@@ -163,9 +193,12 @@ h2 {
   width: 50%;
   text-align: center;
   padding: 10px;
+  clear: both;
     
     
   }
+
+  
 
   input[type=text], input[type=email] {
     width: 70%; 
