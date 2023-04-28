@@ -51,6 +51,7 @@ ul {
     background-size: cover;
     margin-bottom: -50px;
     display: block;
+    position: relative;
     
 }
 
@@ -61,21 +62,11 @@ ul {
     color: #cbd18f;
     text-align: center;
     padding-top: 5%;
-}
-
-#quote {
-    height: 100px;
-    width: 60%;
-    font-family: Source Sans Pro;
-    line-height: 50px;
-    font-size: 30px;
-    text-align: center;
-    color: orange;
-    background-color: transparent;
-    margin: 50px 0 200px 400px;
-    padding: 0;
     
 }
+
+
+    
 
 .spacer {
     width: 100%;
@@ -100,17 +91,6 @@ h2 {
   clear: both;
 }
 
-.middle-column {
-
-  float: left;
-   height: fit-content;
-   width: 100%;
-    margin: 10px;
-    padding: 10px;
-    display: inline;
-    
-    
-}
 
 #left-column {
     margin: -10px 20px 0 80px;
@@ -120,7 +100,21 @@ h2 {
     
 }
 
-#right-column {
+#quote {
+  
+  width: 100px;
+  font-family: Source Sans Pro, sans-serif;
+  line-height: 50px;
+  font-size: 30px;
+  text-align: center;
+  color: #FD673A;
+ 
+  
+  
+  }
+  
+
+#about-us-section {
 
   font-family: Source Sans Pro, sans-serif;
   font-size: 20px;
