@@ -91,10 +91,23 @@ h2 {
   clear: both;
 }
 
+#middle-row {
+
+  
+   height: fit-content;
+   width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    clear: both
+    
+    
+}
 
 #left-column {
     margin: -10px 20px 0 80px;
     padding-left: 5px;
+    float: left;
     
     
     
@@ -108,6 +121,7 @@ h2 {
   font-size: 30px;
   text-align: center;
   color: #FD673A;
+  float: right;
  
   
   
@@ -145,12 +159,13 @@ h2 {
 
 
 
-.column {
-  float: left;
+
+  .column {float: left;
   width: 31%;
   margin: 10px;
   padding: 0;
   display: inline;}
+  
   
   
 
